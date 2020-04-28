@@ -1,0 +1,40 @@
+@import url('https://fonts.goodleapis.com/css?family=Roboto:400,700&display=swap');
+
+main {
+    flex: 1; 
+    margin-left: 30px;
+}
+
+main ol {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    color: #333;
+    font-size: 11pt;;
+}
+
+@media (max-width: 650px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+
+li {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border: 5 rgba(0,0,0,0.2);
+    list-style: none;
+    position: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
